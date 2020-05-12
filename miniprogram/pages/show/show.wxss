@@ -1,0 +1,21 @@
+.text_left{
+  margin-top: 20PX;
+  width: 35%;
+  font-size: 20px;
+  border: 1px;
+  padding-left: 2%;
+}
+.text_right{
+  margin-top: 20PX;
+  width: 55%;
+  font-size: 20px;
+  border: 1px;
+}
+.scroll-view_right{
+  margin-top: 20PX;
+  width: 55%;
+  height: 100PX;
+  font-size: 20px;
+  border: 1px;
+  word-break:break-all;
+}
