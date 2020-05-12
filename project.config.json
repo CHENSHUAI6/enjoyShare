@@ -10,12 +10,11 @@
 		"enhance": true
 	},
 	"appid": "wxc73456aacebbb37d",
-	"projectname": "enjoyShare",
-	"libVersion": "2.8.1",
+	"projectname": "Hilary_Chen",
+	"libVersion": "2.10.3",
 	"simulatorType": "wechat",
 	"simulatorPluginLibVersion": {},
 	"cloudfunctionTemplateRoot": "cloudfunctionTemplate",
-	"compileType": "miniprogram",
 	"condition": {
 		"search": {
 			"current": -1,

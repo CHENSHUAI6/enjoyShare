@@ -1,0 +1,30 @@
+<view class="container">
+  <view class="header">
+    <view class="search">
+      <image class="icon" mode="scaleToFill" src="{{img_url}}/icon_search.png" />
+      <input id="search" bindinput="inputSearch" placeholder="{{placeholder}}" style="text-transform:Uppercase;" />
+      <icon type="clear" size="15" hidden="{{!showResult}}" />
+    </view>
+    <button type="warn" size="mini" bindtap="onQuery">搜索</button>
+  </view>
+
+  <!--热门推荐-->
+  <view class="hot-search">
+    <text class="hot-title">内容展示</text>
+    <view class="hot-list">
+      <view class="hot-ul">
+        <view wx:for="{{table}}" wx:key="module">
+          <view class="hot-li_left">
+            <text class="hot-span">{{item.module}}</text>
+          </view>
+          <view class="hot-li">
+            <text class="hot-span">{{item.table_name}}</text>
+          </view>
+          <view class="hot-li_right">
+            <text class="hot-span">{{item.desctibe}}</text>
+          </view>
+        </view>
+      </view>
+    </view>
+  </view>
+</view>

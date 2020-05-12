@@ -1,0 +1,58 @@
+.container {
+  height: 100%;
+  background: #f2f2f2;
+  font-size: 24rpx;
+  color:#333;
+}
+.contact-title{
+  margin-top: 50rpx; 
+  font-size: 36rpx;
+  padding-top: 30rpx;
+}
+.contact-list{
+  background: #fff; 
+  margin-top: 20rpx; 
+  padding: 20rpx 30rpx 10rpx 20px;
+  /*border-top: 1px #f1f1f1 solid;*/
+  /*border-bottom: 1px #c2c2c2 solid;*/
+}
+.contact-items{
+  display: flex;
+  flex: 1;
+  margin-bottom: 15rpx;
+  flex-direction: row;
+  position: relative;
+  font-size: 30rpx;
+}
+.head-items{
+  display: table-cell;
+  vertical-align: bottom;
+  position: relative;
+  margin-bottom: 15rpx;
+  font-size: 30rpx;
+}
+.series{
+  padding-top: 5rpx;
+  font-size: 70rpx;
+}
+.contact-type{
+  color:#ec5c30;
+  padding-top: 5rpx;
+  position: absolute;
+  right:0;
+  text-align: right;
+}
+.font-type{
+  color:black;
+}
+.font-type-1{
+  position: absolute;
+  right:0;
+  text-align: right;
+}
+.channel{
+  margin-right: 10rpx;
+}
+.earnest-money{
+  color:#ec5c30;
+}

@@ -1,48 +1,50 @@
 {
   "pages": [
-    "pages/show/show",
-    "pages/index/index",
-    "pages/userConsole/userConsole",
-    "pages/storageConsole/storageConsole",
-    "pages/databaseGuide/databaseGuide",
-    "pages/addFunction/addFunction",
-    "pages/deployFunctions/deployFunctions",
-    "pages/chooseLib/chooseLib",
-    "pages/openapi/openapi",
-    "pages/openapi/serverapi/serverapi",
-    "pages/openapi/callback/callback",
-    "pages/openapi/cloudid/cloudid",
-    "pages/im/im",
-    "pages/im/room/room"
+    "pages/contact/contact",
+    "pages/activity/list/list",
+    "pages/sap_table/sap_table",
+    "pages/message/message",
+    "pages/activity/page/page",
+    "pages/t_code/t_code"
   ],
-  "tabBar": {
-    "color": "#7A7E83",
-    "selectedColor": "#3cc51f",
-    "borderStyle": "black",
-    "backgroundColor": "#ffffff",
-    "list": [
-      {
-        "pagePath": "pages/show/show",
-        "iconPath": "/images/icon_component.png",
-        "selectedIconPath": "/images/icon_component_HL.png",
-        "text": "展示"
-      },
-      {
-        "pagePath": "pages/index/index",
-        "iconPath": "images/icon_API.png",
-        "selectedIconPath": "images/icon_API_HL.png",
-        "text": "配置"
-      }
-    ]
-  },
-  "usingComponents": {},
   "window": {
     "backgroundColor": "#F6F6F6",
     "backgroundTextStyle": "light",
     "navigationBarBackgroundColor": "#F6F6F6",
-    "navigationBarTitleText": "云开发 QuickStart",
+    "navigationBarTitleText": "Hilary Chen",
     "navigationBarTextStyle": "black"
   },
-  "sitemapLocation": "sitemap.json",
-  "style": "v2"
+  "tabBar": {
+    "color": "#878787",
+    "selectedColor": "#d12a1a",
+    "borderStyle": "white",
+    "backgroundColor": "#fcfcfc",
+    "list": [
+      {
+        "pagePath": "pages/sap_table/sap_table",
+        "iconPath": "images/tabBar/table_2.png",
+        "selectedIconPath": "images/tabBar/table_1.png",
+        "text": "底表"
+      },
+      {
+        "pagePath": "pages/message/message",
+        "iconPath": "images/tabBar/t_code_2.png",
+        "selectedIconPath": "images/tabBar/t_code_1.png",
+        "text": "事务码"
+      },
+      {
+        "pagePath": "pages/activity/list/list",
+        "iconPath": "images/tabBar/activity_2.png",
+        "selectedIconPath": "images/tabBar/activity_1.png",
+        "text": "笔记"
+      },
+      {
+        "pagePath": "pages/contact/contact",
+        "iconPath": "images/tabBar/people_2.png",
+        "selectedIconPath": "images/tabBar/people_1.png",
+        "text": "联系我们"
+      }
+    ]
+  },
+  "sitemapLocation": "sitemap.json"
 }

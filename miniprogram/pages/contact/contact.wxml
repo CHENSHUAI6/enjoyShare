@@ -1,0 +1,50 @@
+<view class="container">
+  <!-- <text class="contact-title">内容展示</text> -->
+  <view class="contact-list">
+    <view class="contact-items">
+      <text class="series">Hilary Chen</text>
+      <text class="contact-type">ABAP开发、外围开发</text>
+    </view>
+    <view class="contact-items">
+      <text class="font-type"> QQ：178057198</text>
+    </view>
+    <view class="contact-items">
+      <text class="font-type"> QQ：178057198</text>
+    </view>
+    <view class="contact-items">
+      <view class="font-type">
+        <text class="channel">中规</text>
+        <text>out_color//in_color</text>
+      </view>
+      <view class="font-type-1">
+        <text>剩:surplus_time</text>
+      </view>
+    </view>
+    <view class="contact-items">
+      <text class="earnest-money">己冻结诚意金earnest_money元</text>
+    </view>
+  </view>
+
+    <view class="contact-list">
+    <view class="contact-items">
+      <text class="series">series 万</text>
+      <text class="find-type">竞价中</text>
+    </view>
+    <view class="contact-items">
+      <text class="font-type">type</text>
+      <text class="font-type-1">oncard_province-oncard_city</text>
+    </view>
+    <view class="contact-items">
+      <view class="font-type">
+        <text class="channel">中规</text>
+        <text>out_color//in_color</text>
+      </view>
+      <view class="font-type-1">
+        <text>剩:surplus_time</text>
+      </view>
+    </view>
+    <view class="contact-items">
+      <text class="earnest-money">己冻结诚意金earnest_money元</text>
+    </view>
+  </view>
+</view>
