@@ -33,14 +33,19 @@
 }
 .series{
   padding-top: 5rpx;
-  font-size: 70rpx;
+  font-size: 60rpx;
+  height: 100rpx;
+  line-height: 100rpx;
 }
 .contact-type{
   color:#ec5c30;
   padding-top: 5rpx;
+  padding-left: 10rpx;
   position: absolute;
   right:0;
-  text-align: right;
+  height: 100rpx;
+  line-height: 100rpx;
+
 }
 .font-type{
   color:black;
