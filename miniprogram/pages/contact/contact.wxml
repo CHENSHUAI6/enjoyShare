@@ -6,15 +6,15 @@
       <text class="contact-type">ABAP顾问</text>
     </view>
     <view class="contact-items">
-      <image src="../../images/qq.png" mode="scollFill center" class="contact-icon"></image>
+      <image src="../../images/qq_2.png" mode="scollFill center" class="contact-icon"></image>
       <text class="font-type">178057198</text>
     </view>
     <view class="contact-items">
-      <image src="../../images/email.png" mode="scollFill center" class="contact-icon"></image>
+      <image src="../../images/email_2.png" mode="scollFill center" class="contact-icon"></image>
       <text class="font-type">178057198@qq.com</text>
     </view>
     <view class="contact-items">
-    <image src="../../images/wechat.png" mode="scollFill center" class="contact-icon"></image>
+    <image src="../../images/wechat_2.png" mode="scollFill center" class="contact-icon"></image>
       <text class="font-type">easyStyle6</text>
     </view>
   </view>
@@ -25,15 +25,15 @@
       <text class="contact-type">MM 顾问</text>
     </view>
     <view class="contact-items">
-     <image src="../../images/qq.png" mode="scollFill center" class="contact-icon"></image>
+     <image src="../../images/qq_2.png" mode="scollFill center" class="contact-icon"></image>
       <text class="font-type">1404318263</text>
     </view>
     <view class="contact-items">
-     <image src="../../images/email.png" mode="scollFill center" class="contact-icon"></image>
+     <image src="../../images/email_2.png" mode="scollFill center" class="contact-icon"></image>
       <text class="font-type">1404318263@qq.com</text>
     </view>
     <view class="contact-items">
-     <image src="../../images/wechat.png" mode="scollFill center" class="contact-icon"></image>
+     <image src="../../images/wechat_2.png" mode="scollFill center" class="contact-icon"></image>
       <text class="font-type">dizhangmen</text>
     </view>
   </view>
