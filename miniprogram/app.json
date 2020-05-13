@@ -1,11 +1,11 @@
 {
   "pages": [
-    "pages/contact/contact",
-    "pages/activity/list/list",
     "pages/sap_table/sap_table",
+    "pages/contact/contact",
+    "pages/t_code/t_code",
+    "pages/activity/list/list",
     "pages/message/message",
-    "pages/activity/page/page",
-    "pages/t_code/t_code"
+    "pages/activity/page/page"
   ],
   "window": {
     "backgroundColor": "#F6F6F6",
@@ -27,7 +27,7 @@
         "text": "底表"
       },
       {
-        "pagePath": "pages/message/message",
+        "pagePath": "pages/t_code/t_code",
         "iconPath": "images/tabBar/t_code_2.png",
         "selectedIconPath": "images/tabBar/t_code_1.png",
         "text": "事务码"

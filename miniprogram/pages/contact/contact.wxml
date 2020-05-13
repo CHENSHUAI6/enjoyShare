@@ -3,16 +3,38 @@
   <view class="contact-list">
     <view class="head-items">
       <text class="series">Hilary Chen</text>
-      <text class="contact-type">ABAP开发</text>
+      <text class="contact-type">ABAP顾问</text>
     </view>
     <view class="contact-items">
-      <text class="font-type"> Q Q：178057198</text>
+      <image src="../../images/qq.png" mode="scollFill center" class="contact-icon"></image>
+      <text class="font-type">178057198</text>
     </view>
     <view class="contact-items">
-      <text class="font-type"> 邮箱：178057198@qq.com</text>
+      <image src="../../images/email.png" mode="scollFill center" class="contact-icon"></image>
+      <text class="font-type">178057198@qq.com</text>
     </view>
     <view class="contact-items">
-      <text class="font-type"> 微信：easyStyle6</text>
+    <image src="../../images/wechat.png" mode="scollFill center" class="contact-icon"></image>
+      <text class="font-type">easyStyle6</text>
+    </view>
+  </view>
+
+  <view class="contact-list">
+    <view class="head-items">
+      <text class="series">Demi</text>
+      <text class="contact-type">MM 顾问</text>
+    </view>
+    <view class="contact-items">
+     <image src="../../images/qq.png" mode="scollFill center" class="contact-icon"></image>
+      <text class="font-type">1404318263</text>
+    </view>
+    <view class="contact-items">
+     <image src="../../images/email.png" mode="scollFill center" class="contact-icon"></image>
+      <text class="font-type">1404318263@qq.com</text>
+    </view>
+    <view class="contact-items">
+     <image src="../../images/wechat.png" mode="scollFill center" class="contact-icon"></image>
+      <text class="font-type">dizhangmen</text>
     </view>
   </view>
 

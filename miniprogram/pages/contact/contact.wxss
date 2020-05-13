@@ -9,6 +9,18 @@
   font-size: 36rpx;
   padding-top: 30rpx;
 }
+.contact-icon-mail{
+  width: 45rpx;
+  height: 45rpx;
+  line-height: 45rpx;
+  margin-right: 10rpx;
+}
+.contact-icon{
+  width: 40rpx;
+  height: 40rpx;
+  line-height: 40rpx;
+  margin-right: 10rpx;
+}
 .contact-list{
   background: #fff; 
   margin-top: 20rpx; 
@@ -22,7 +34,7 @@
   margin-bottom: 15rpx;
   flex-direction: row;
   position: relative;
-  font-size: 30rpx;
+  font-size: 35rpx;
 }
 .head-items{
   display: flex;
@@ -36,6 +48,7 @@
 .series{
   padding-top: 5rpx;
   font-size: 60rpx;
+  font-weight: 700;
   position:absolute; 
   bottom:0;
 }
