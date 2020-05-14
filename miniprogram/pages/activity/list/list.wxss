@@ -11,9 +11,10 @@ page {
   display: -webkit-flex;
   padding: 20rpx;
   background: #fff;
-  /* position:fixed;
+  position:fixed;
   top:0;
-  width: 95%; */
+  width: 95%;
+  z-index: 100;
 }
 
 .header:after {
@@ -117,7 +118,7 @@ page {
 }
 
 .hot-search {
-  /* padding-top: 120rpx; */
+  padding-top: 120rpx;
   width: 100%;
   overflow: hidden;
 }
