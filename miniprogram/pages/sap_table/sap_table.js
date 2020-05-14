@@ -27,7 +27,7 @@ Page({
     })
     wx.cloud.callFunction({
       // 云函数名称
-      name: 'TabelQuery',
+      name: 'TableQuery',
       // 传给云函数的参数
       data: {
         a: 1,

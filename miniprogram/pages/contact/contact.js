@@ -14,37 +14,6 @@ Page({
         wechatName: "easyStyle6",
       },
       {
-        name: "Hilary Chen1",
-        position: "ABAP顾问",
-        qq: "178057198",
-        email: "178057198@qq.com",
-        wechatName: "easyStyle6",
-      },{
-        name: "Hilary Chen2",
-        position: "ABAP顾问",
-        qq: "178057198",
-        email: "178057198@qq.com",
-        wechatName: "easyStyle6",
-      },{
-        name: "Hilary Chen3",
-        position: "ABAP顾问",
-        qq: "178057198",
-        email: "178057198@qq.com",
-        wechatName: "easyStyle6",
-      },{
-        name: "Hilary Chen4",
-        position: "ABAP顾问",
-        qq: "178057198",
-        email: "178057198@qq.com",
-        wechatName: "easyStyle6",
-      },{
-        name: "Hilary Chen5",
-        position: "ABAP顾问",
-        qq: "178057198",
-        email: "178057198@qq.com",
-        wechatName: "easyStyle6",
-      },
-      {
         name: "Demi",
         position: "MM 顾问",
         qq: "1404318263",
@@ -103,19 +72,18 @@ Page({
    * 页面上拉触底事件的处理函数
    */
   onReachBottom: function () {
-    console.log("底部", this.data);
-    const temp = this.data.contactList;
-    temp.push({
-      name: "yueyue",
-      position: "boss",
-      qq: "88888888",
-      email: "88888@yuer.com",
-      wechatName: "yueyue",
-    });
-    this.setData({
-      contactList: temp,
-    });
-    
+    // console.log("底部", this.data);
+    // const temp = this.data.contactList;
+    // temp.push({
+    //   name: "yueyue",
+    //   position: "boss",
+    //   qq: "88888888",
+    //   email: "88888@yuer.com",
+    //   wechatName: "yueyue",
+    // });
+    // this.setData({
+    //   contactList: temp,
+    // });
   },
 
   /**
