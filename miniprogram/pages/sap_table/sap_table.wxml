@@ -12,8 +12,8 @@
   <view class="hot-search">
     <text class="hot-title">内容展示</text>
     <view class="hot-list">
-      <view class="hot-ul">
-        <view wx:for="{{table}}" wx:key="module">
+      <scroll-view scroll-y="true" style="height: 930rpx;" class="hot-ul">
+        <view wx:for="{{table}}" wx:key="module" class="li-item">
           <view class="hot-li_left">
             <text class="hot-span">{{item.module}}</text>
           </view>
@@ -24,7 +24,7 @@
             <text class="hot-span">{{item.desctibe}}</text>
           </view>
         </view>
-      </view>
+      </scroll-view>
     </view>
   </view>
 </view>
