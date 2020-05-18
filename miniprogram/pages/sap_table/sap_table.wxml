@@ -12,7 +12,7 @@
   <view class="hot-search">
     <text class="hot-title">内容展示</text>
     <view class="hot-list">
-      <scroll-view scroll-y="true" style="height: 930rpx;" class="hot-ul">
+      <scroll-view scroll-y="true" class="hot-ul">
         <view wx:for="{{table}}" wx:key="module" class="li-item">
           <view class="hot-li_left">
             <text class="hot-span">{{item.module}}</text>
