@@ -2,6 +2,7 @@ page {
   height: 100%;
   overflow-x:hidden;
 }
+
 .container{
   width: 100%;
   overflow-y:hidden;
@@ -15,6 +16,7 @@ page {
   width: 95%;
   z-index: 100;
 }
+
 .header:after {
   position: absolute;
   top: 56px;
@@ -142,6 +144,14 @@ page {
   margin: 0 0 0 -1rpx;
   list-style: none;
 }
+.li-item {
+  border-bottom: #dedede solid 1rpx;
+   display: flex;
+  width: 100%;
+  justify-content: center;
+  /* height: 3rem; */
+  align-items: center;
+}
 
 .hot-li_left {
   display: inline-block;
@@ -152,7 +162,8 @@ page {
   text-align: center;
   font-size: 28rpx;
   color: #333;
-  border-top: #dedede solid 1rpx;
+  /* border-top: #dedede solid 1rpx;
+  border-right: #dedede solid 1rpx; */
   border-right: #dedede solid 1rpx;
 }
 .hot-li {
@@ -164,8 +175,8 @@ page {
   text-align: center;
   font-size: 28rpx;
   color: #333;
-  border-top: #dedede solid 1rpx;
-  border-right: #dedede solid 1rpx;
+  /* border-top: #dedede solid 1rpx;
+  border-right: #dedede solid 1rpx; */
 }
 .hot-li_right {
   display: inline-block;
@@ -176,7 +187,7 @@ page {
   text-align: center;
   font-size: 28rpx;
   color: #333;
-  border-top: #dedede solid 1rpx;
+  border-left: #dedede solid 1rpx;
 }
 
 .hot-li:before {
@@ -185,7 +196,7 @@ page {
   top: 0rpx;
   width: 1rpx;
   height: 200%;
-  border-left: #dedede solid 1rpx;
+  /* border-left: #dedede solid 1rpx; */
   content: '';
   overflow: hidden;
   opacity: 0.5;
@@ -198,7 +209,7 @@ page {
   right: 0rpx;
   width: 100%;
   height: 1rpx;
-  background: #dedede;
+  /* background: #dedede; */
   content: '';
   overflow: hidden;
   opacity: 0.5;
