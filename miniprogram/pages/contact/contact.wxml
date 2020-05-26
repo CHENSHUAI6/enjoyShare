@@ -7,15 +7,15 @@
     </view>
     <view class="contact-items">
       <image src="../../images/qq_2.png" mode="scollFill center" class="contact-icon"></image>
-      <text class="font-type">{{item.qq}}</text>
+      <text bindtap="copyText" data-id="{{item.qq}}" class="font-type">{{item.qq}}</text>
     </view>
     <view class="contact-items">
       <image src="../../images/email_2.png" mode="scollFill center" class="contact-icon"></image>
-      <text class="font-type">{{item.email}}</text>
+      <text bindtap="copyText" data-id="{{item.email}}" class="font-type">{{item.email}}</text>
     </view>
     <view class="contact-items">
     <image src="../../images/wechat_2.png" mode="scollFill center" class="contact-icon"></image>
-      <text class="font-type">{{item.wechatName}}</text>
+      <text bindtap="copyText" data-id="{{item.wechatName}}" class="font-type">{{item.wechatName}}</text>
     </view>
   </view>
 

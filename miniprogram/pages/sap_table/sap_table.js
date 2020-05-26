@@ -130,6 +130,22 @@ Page({
     });
   },
 
+  copyText: function(even){
+    var text_id = even.currentTarget.dataset.id
+    //console.log(even)
+    //console.log(text_id)
+    wx.setClipboardData({
+      data: text_id,
+      success(res) {
+        wx.getClipboardData({
+          success(res) {
+            console.log(res.data) // data
+          }
+        })
+      }
+    })
+  },
+
   /**
    * 生命周期函数--监听页面初次渲染完成
    */
@@ -174,4 +190,6 @@ Page({
   onShareAppMessage: function() {
 
   }
+
+  
 })

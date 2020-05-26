@@ -12,19 +12,19 @@
   <view class="hot-search">
     <text class="hot-title">内容展示</text>
     <view class="hot-list">
-      <scroll-view scroll-y="true" class="hot-ul">
+      <view scroll-y="true" class="hot-ul">
         <view wx:for="{{table}}" wx:key="module" class="li-item">
           <view class="hot-li_left">
             <text class="hot-span">{{item.module}}</text>
           </view>
           <view class="hot-li">
-            <text class="hot-span">{{item.table_name}}</text>
+            <text bindtap="copyText" data-id="{{item.table_name}}" class="hot-span">{{item.table_name}}</text>
           </view>
           <view class="hot-li_right">
-            <text class="hot-span">{{item.desctibe}}</text>
+            <text bindtap="copyText" data-id="{{item.desctibe}}" class="hot-span">{{item.desctibe}}</text>
           </view>
         </view>
-      </scroll-view>
+      </view>
     </view>
   </view>
 </view>

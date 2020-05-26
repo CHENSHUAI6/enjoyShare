@@ -15,9 +15,10 @@ page {
   top:0;
   width: 95%;
   z-index: 100;
+  border-bottom: #dedede solid 1rpx;
 }
 
-.header:after {
+/* .header:after {
   position: absolute;
   top: 56px;
   left: 0px;
@@ -27,7 +28,7 @@ page {
   background: #dedede;
   content: '';
   z-index: 999;
-}
+} */
 
 .header .icon {
   width: 40rpx;

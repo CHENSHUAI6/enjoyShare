@@ -20,8 +20,31 @@ Page({
         email: "1404318263@qq.com",
         wechatName: "dizhangmen",
       },
+      {
+        name: "Hao Song",
+        position: "SD 顾问",
+        qq: "476896278",
+        email: "476896278@qq.com",
+        wechatName: "wxid_myvwy2jt76u322",
+      },
     ],
 
+  },
+
+  copyText: function (even) {
+    var text_id = even.currentTarget.dataset.id
+    //console.log(even)
+    //console.log(text_id)
+    wx.setClipboardData({
+      data: text_id,
+      success(res) {
+        wx.getClipboardData({
+          success(res) {
+            console.log(res.data) // data
+          }
+        })
+      }
+    })
   },
 
   /**
