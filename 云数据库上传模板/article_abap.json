@@ -1,0 +1,114 @@
+{
+  "_id": "ABAP00000001",
+  "adress": "https://mp.weixin.qq.com/s/3g0K1C3vDTVyGY-2AdvGOA",
+  "module": "ABAP",
+  "name": "ABAP自开发屏幕导入导出"
+}
+{
+  "_id": "ABAP00000002",
+  "adress": "https://mp.weixin.qq.com/s/x2xUDrM8EVfJ8TuXDRwatQ",
+  "module": "ABAP",
+  "name": "几种SAP增强的查找方法"
+}
+{
+  "_id": "ABAP00000003",
+  "adress": "https://mp.weixin.qq.com/s/9ZPsyQIcESn-hbKLGt19pg",
+  "module": "ABAP",
+  "name": "SAP发布WebService"
+}
+{
+  "_id": "ABAP00000004",
+  "adress": "https://mp.weixin.qq.com/s/K3MvW_n5MUIw-m9fg2dpSA",
+  "module": "ABAP",
+  "name": "S/4中FAGL_FCV外币评估使用的替代"
+}
+{
+  "_id": "ABAP00000005",
+  "adress": "https://mp.weixin.qq.com/s/U75LJZcQ8VMaOl0WicFSaw",
+  "module": "ABAP",
+  "name": "SAP锁机制"
+}
+{
+  "_id": "ABAP00000006",
+  "adress": "https://mp.weixin.qq.com/s/WcmG3JdLQApyRNU3kSLEvw",
+  "module": "ABAP",
+  "name": "ABAP新语法整理一（内联声明）"
+}
+{
+  "_id": "ABAP00000007",
+  "adress": "https://mp.weixin.qq.com/s/ivp2_GuEOYTKGo5abrzabQ",
+  "module": "ABAP",
+  "name": "ABAP新语法整理二（结构内表赋值）"
+}
+{
+  "_id": "ABAP00000008",
+  "adress": "https://mp.weixin.qq.com/s/CT3agrk6ZMGJzVxkBOQ4ww",
+  "module": "ABAP",
+  "name": "ABAP新语法整理三（内表操作）"
+}
+{
+  "_id": "ABAP00000009",
+  "adress": "https://mp.weixin.qq.com/s/iOYFzoYGVMPtoyJxf5Y8qg",
+  "module": "ABAP",
+  "name": "SAP中查找某字符串所在的程序"
+}
+{
+  "_id": "ABAP00000010",
+  "adress": "https://mp.weixin.qq.com/s/-HJJy5ayX79GxDuPdyanLw",
+  "module": "ABAP",
+  "name": "物料特性值相关表"
+}
+{
+  "_id": "ABAP00000011",
+  "adress": "https://mp.weixin.qq.com/s/60JHGKbZWCrdXso4X7chyQ",
+  "module": "ABAP",
+  "name": "SAP通过税码MWSKZ获取百分比税率"
+}
+{
+  "_id": "ABAP00000012",
+  "adress": "https://mp.weixin.qq.com/s/9nHMY_oT_YfibYcVS3JR8A",
+  "module": "ABAP",
+  "name": "财务凭证批导扩展字段增强"
+}
+{
+  "_id": "ABAP00000013",
+  "adress": "https://mp.weixin.qq.com/s/XwZtNO0rMeBfu2azL6meoQ",
+  "module": "ABAP",
+  "name": "SAP调用 WEBSERVICES"
+}
+{
+  "_id": "ABAP00000014",
+  "adress": "https://mp.weixin.qq.com/s/BPwtkrhT8_CnSOTjra5DEw",
+  "module": "ABAP",
+  "name": "SMW0上传文件到 SAP"
+}
+{
+  "_id": "ABAP00000015",
+  "adress": "https://mp.weixin.qq.com/s/XQWKSSrCh3k3M_fSeOm0qQ",
+  "module": "ABAP",
+  "name": "ABAP内表<->JSON"
+}
+{
+  "_id": "ABAP00000016",
+  "adress": "https://mp.weixin.qq.com/s/e_arzGBthvLBWqs689VN-Q",
+  "module": "ABAP",
+  "name": "ABAP读取长文本"
+}
+{
+  "_id": "ABAP00000017",
+  "adress": "https://mp.weixin.qq.com/s/aAr397XFdMhl00nyb269iA",
+  "module": "ABAP",
+  "name": "取得SAP服务器主机名(host name)和端口号(port)函数"
+}
+{
+  "_id": "ABAP00000018",
+  "adress": "https://mp.weixin.qq.com/s/8IpdiT3NFJqESQWdL-C5cg",
+  "module": "ABAP",
+  "name": "SM30报错"
+}
+{
+  "_id": "ABAP00000019",
+  "adress": "https://mp.weixin.qq.com/s/6ZrJVXJeHhm2N9_3YHJg_A",
+  "module": "ABAP",
+  "name": "ABAP调用其他系统 RFC"
+}

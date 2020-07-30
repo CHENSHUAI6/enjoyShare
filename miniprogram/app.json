@@ -1,10 +1,11 @@
 {
   "pages": [
-    "pages/sap_table/sap_table",
     "pages/contact/contact",
+    "pages/message/message",
+    "pages/english/english",
+    "pages/sap_table/sap_table",
     "pages/t_code/t_code",
     "pages/activity/list/list",
-    "pages/message/message",
     "pages/activity/page/page"
   ],
   "window": {
@@ -37,6 +38,12 @@
         "iconPath": "images/tabBar/activity_2.png",
         "selectedIconPath": "images/tabBar/activity_1.png",
         "text": "笔记"
+      },
+      {
+        "pagePath": "pages/english/english",
+        "iconPath": "images/tabBar/english_2.png",
+        "selectedIconPath": "images/tabBar/english_1.png",
+        "text": "简单英文"
       },
       {
         "pagePath": "pages/contact/contact",

@@ -11,7 +11,7 @@ Page({
         position: "ABAP顾问",
         qq: "178057198",
         email: "178057198@qq.com",
-        wechatName: "easyStyle6",
+        wechatName: "Hilary__Chen",
       },
       {
         name: "Demi",

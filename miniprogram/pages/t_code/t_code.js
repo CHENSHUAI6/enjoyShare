@@ -25,6 +25,9 @@ Page({
     this.setData({
       table: []
     })
+    wx.showLoading({
+      title: '加载中',
+    })
     wx.cloud.callFunction({
       // 云函数名称
       name: 'TCodeQuery',
@@ -39,6 +42,7 @@ Page({
           table: res.result.data
         })
         console.log(res.result) // 3
+        wx.hideLoading()
       },
       fail: console.error
     })

@@ -1,0 +1,54 @@
+{
+  "_id": "MM00000001",
+  "adress": "https://mp.weixin.qq.com/s/5EQ41WoASefwz8cpRwdzwQ",
+  "module": "MM",
+  "name": "物料主数据的货架寿命"
+}
+{
+  "_id": "MM00000002",
+  "adress": "https://mp.weixin.qq.com/s/P0N4bJPPvhMA2L7X5CTgag",
+  "module": "MM",
+  "name": "采购订单中的最近收货日期"
+}
+{
+  "_id": "MM00000003",
+  "adress": "https://mp.weixin.qq.com/s/M_ubIt59RHoqGo0r_TqwAA",
+  "module": "MM",
+  "name": "MM-发票预制和过账"
+}
+{
+  "_id": "MM00000004",
+  "adress": "https://mp.weixin.qq.com/s/DdVew7_uwj9g72PG9GjlNA",
+  "module": "MM",
+  "name": "FICO-总账快速数据输入屏幕修改（F-02"
+}
+{
+  "_id": "MM00000005",
+  "adress": "https://mp.weixin.qq.com/s/ypDhDcQ35nH7FjQay5to-Q",
+  "module": "MM",
+  "name": "MM-收货时自动创建采购订单"
+}
+{
+  "_id": "MM00000006",
+  "adress": "https://mp.weixin.qq.com/s/UFyhQO9IoDDEQL4LnR0nXw",
+  "module": "MM",
+  "name": "MM-允许工厂中物料负库存"
+}
+{
+  "_id": "MM00000007",
+  "adress": "https://mp.weixin.qq.com/s/otGUAXf_nKOyN_j4lTSB5w",
+  "module": "MM",
+  "name": "MM-关于退货的移动类型（102,122,161）"
+}
+{
+  "_id": "MM00000008",
+  "adress": "https://mp.weixin.qq.com/s/a5aVejkic2O_-L_7guy_rg",
+  "module": "MM",
+  "name": "MM-打开SAP的物料帐期和财务账期"
+}
+{
+  "_id": "MM00000009",
+  "adress": "https://mp.weixin.qq.com/s/eOfkQ6FNbYkZRuo23Kfc7A",
+  "module": "MM",
+  "name": "MM-自动创建库存地点"
+}

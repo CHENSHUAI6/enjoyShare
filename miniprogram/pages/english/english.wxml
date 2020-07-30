@@ -12,16 +12,13 @@
   <view class="hot-search">
     <text class="hot-title">内容展示</text>
     <view class="hot-list">
-      <view class="hot-ul">
-        <view wx:for="{{table}}" wx:key="module">
+      <view scroll-y="true" class="hot-ul">
+        <view wx:for="{{table}}" wx:key="module" class="li-item">
           <view class="hot-li_left">
-            <text class="hot-span">{{index + 1}}</text>
-          </view>
-          <view class="hot-li">
-            <text class="hot-span">{{item.module}}</text>
+            <text class="hot-span">{{item.phrase}}</text>
           </view>
           <view class="hot-li_right">
-            <navigator bindtap="copyText" data-id="{{item.adress}}" url='../page/page?title={{item.adress}}'>{{item.name}}</navigator>
+            <text bindtap="copyText" data-id="{{item.text}}" class="hot-span">{{item.text}}</text>
           </view>
         </view>
       </view>

@@ -1,0 +1,22 @@
+.section__title {
+  margin: 20rpx;
+}
+
+.section {
+  width: 100%;
+  font-size: 35rpx;
+  margin: 10rpx;
+  color: #000;
+}
+
+.picker {
+  color: #6BD44E;
+}
+
+.add_icon{
+  position: fixed;
+  width:42px; 
+  height:42px;
+  bottom: 30px;
+  right: 20px;
+}
