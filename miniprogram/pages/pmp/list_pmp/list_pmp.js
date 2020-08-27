@@ -37,7 +37,7 @@ Page({
       }
     })
   },
-
+  
   onQuery: function () {
     this.setData({
       table: []
@@ -47,7 +47,7 @@ Page({
     })
     wx.cloud.callFunction({
       // 云函数名称
-      name: 'ActivityQuery',
+      name: 'PMPQuery',
       // 传给云函数的参数
       data: {
         a: 1,
@@ -120,7 +120,7 @@ Page({
    * 生命周期函数--监听页面加载
    */
   onLoad: function (options) {
-    //this.onQuery()
+    this.onQuery()
   },
 
   /**

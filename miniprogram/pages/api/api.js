@@ -4,11 +4,11 @@ Page({
    * 页面的初始数据
    */
   data: {
-    img_url: '../../../images/',
+    img_url: '../../images/',
     search: '',
     filterId: 1,
     searchWords: '',
-    placeholder: '请输入关键字，模块',
+    placeholder: '请输入模块名,事务码名或相关描述',
     table: [],
     total: 0,
     time: 0,
@@ -21,23 +21,6 @@ Page({
     })
   },
 
-  copyText: function (even) {
-    var text_id = even.currentTarget.dataset.id
-    //console.log(even)
-    //console.log(text_id)
-    wx.setClipboardData({
-      data: text_id,
-      success(res) {
-        wx.showToast({ title: '文章地址已复制' });
-        wx.getClipboardData({
-          success(res) {
-            console.log(res.data) // data
-          }
-        })
-      }
-    })
-  },
-
   onQuery: function () {
     this.setData({
       table: []
@@ -45,29 +28,29 @@ Page({
     wx.showLoading({
       title: '加载中',
     })
-    wx.cloud.callFunction({
-      // 云函数名称
-      name: 'ActivityQuery',
-      // 传给云函数的参数
+    wx.request({
+      url: 'http://sap1.vicp.cc:8070/sap/ztcode?sap-client=100', 
       data: {
-        a: 1,
-        b: 2,
-        search: this.data.search
+        ztype: 'tcode',
+        QUERY: 'ME23N'
+      },
+      header: {
+        'content-type': 'application/json' // 默认值
       },
       success: res => {
         this.setData({
-          table: res.result.data
+          table: res.data
         })
-        console.log(res.result) // 3
+        console.log(res.data) // 3
         wx.hideLoading()
       },
-       // fail: console.error
-       fail: res => {
+      // fail: console.error
+      fail: res => {
         console.error
         wx.hideLoading()
       },
     })
-
+    
     // const db = wx.cloud.database()
     // // 查询当前用户所有的 counters
     // const _ = db.command 

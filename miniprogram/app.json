@@ -1,6 +1,9 @@
 {
   "pages": [
     "pages/contact/contact",
+    "pages/pmp/list_pmp/list_pmp",
+    "pages/pmp/page_pmp/page_pmp",
+    "pages/api/api",
     "pages/message/message",
     "pages/english/english",
     "pages/sap_table/sap_table",
@@ -40,10 +43,10 @@
         "text": "笔记"
       },
       {
-        "pagePath": "pages/english/english",
+        "pagePath": "pages/pmp/list_pmp/list_pmp",
         "iconPath": "images/tabBar/english_2.png",
         "selectedIconPath": "images/tabBar/english_1.png",
-        "text": "简单英文"
+        "text": "PMP"
       },
       {
         "pagePath": "pages/contact/contact",

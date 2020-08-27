@@ -44,7 +44,11 @@ Page({
         console.log(res.result) // 3
         wx.hideLoading()
       },
-      fail: console.error
+       // fail: console.error
+       fail: res => {
+        console.error
+        wx.hideLoading()
+      },
     })
 
     // const db = wx.cloud.database()
